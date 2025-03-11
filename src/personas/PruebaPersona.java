@@ -40,6 +40,7 @@ public class PruebaPersona {
              System.out.println("La persona con DNI: " + per.getDni() + " ¿es menor de edad? --> " + per.esMenor());
              System.out.println("La persona con DNI: " + per.getDni() + " ¿es jubilado/a? --> " + per.esJubilado());
              System.out.println();
+             
          }
          
          //Mostramos la diferencia de edad entre dos personas
@@ -48,5 +49,6 @@ public class PruebaPersona {
          int dif=per1.diferenciaEdad(per2);
          System.out.println("Diferencia de edad entre persona 1 y persona 2 es de " + dif + " años");
     }
+    system.out.println("Modificar el codigo con un mensaje");
     
 }
