@@ -1,12 +1,12 @@
 package personas;
 import java.util.regex.Pattern;
-
+/*MENSAJE NUEVO PARA LA PRACTICA*/
 /**
  * Clase que almacena y maneja los atributos de las personas
  * @autor IES Virgen de la Paloma
  * @version 2
  */
-public class Persona {
+public class Personita {
 
     private String dni;
     private String nombre;
@@ -23,7 +23,7 @@ public class Persona {
      * @param apellidos
      * @param edad
      */
-    public Persona(String dni, String nombre, String apellidos, int edad) {
+    public Personita(String dni, String nombre, String apellidos, int edad) {
         this.dni = dni;
         this.nombre = nombre;
         this.apellidos = apellidos;
@@ -36,14 +36,14 @@ public class Persona {
      * @param apellidos
      * @param edad
      */
-    Persona(String nombre, String apellidos, int edad){
+    Personita(String nombre, String apellidos, int edad){
         this("-", nombre, apellidos, edad);
     }
     
     /**
      * Constructor
      */
-    public Persona() {
+    public Personita() {
     	this("", "", "", 0);
     }
 
@@ -123,7 +123,7 @@ public class Persona {
      * @return
      */
     public boolean esMenor() {
-        return this.edad < Persona.MAYORIA_EDAD;
+        return this.edad < Personita.MAYORIA_EDAD;
     }
     
     
@@ -140,7 +140,7 @@ public class Persona {
      * @param p
      * @return
      */
-    public int diferenciaEdad(Persona p) {
+    public int diferenciaEdad(Personita p) {
         return this.edad - p.edad;
     }
 
