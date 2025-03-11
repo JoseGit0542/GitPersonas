@@ -40,6 +40,7 @@ public class PruebaPersona {
              System.out.println("La persona con DNI: " + per.getDni() + " ¿es menor de edad? --> " + per.esMenor());
              System.out.println("La persona con DNI: " + per.getDni() + " ¿es jubilado/a? --> " + per.esJubilado());
              System.out.println();
+             system.out.println("Mensaje nuevo");
              
          }
          
